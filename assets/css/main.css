@@ -115,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #00264d;
 		text-decoration: none;
 	}
 
@@ -2191,6 +2191,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border: 1px #d3d3d3 solid;
 		}
 
 		.image.fit {
@@ -3273,5 +3274,6 @@ input, select, textarea {
 				#header br {
 					display: none;
 				}
+
 
 	}
