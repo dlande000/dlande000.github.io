@@ -2698,6 +2698,7 @@ input, select, textarea {
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
+		top: -40px;
 	}
 
 		#header:before, #header:after {
@@ -2746,24 +2747,6 @@ input, select, textarea {
 			color: #544d55;
 		}
 
-		#header .logo {
-			background: #4eb980;
-			border-radius: 100%;
-			color: #ffffff;
-			cursor: default;
-			display: inline-block;
-			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 2.35em;
-			margin: 0 0 0.75em 0;
-			text-align: center;
-			width: 2.35em;
-		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
 
 		#header h1 {
 			font-size: 2.5em;
@@ -2774,6 +2757,14 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
+		}
+
+		.headshot {
+			width: 500px;
+			z-index: 5;
+			position: relative;
+			border: 5px #eeeeee solid;
+			border-radius: 50%;
 		}
 
 /* Footer */
