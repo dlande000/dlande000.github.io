@@ -2177,8 +2177,8 @@ input, select, textarea {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
-			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/* transition: opacity 0.25s ease-in-out;
+			background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2211,7 +2211,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-
+/* 
 		.image.icon {
 			-moz-perspective: 500px;
 			-webkit-perspective: 500px;
@@ -2235,9 +2235,9 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
-			}
+			} */
 
-			.image.icon:hover:before {
+			/* .image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
@@ -2246,7 +2246,7 @@ input, select, textarea {
 
 			.image.icon:hover:after {
 				opacity: 1;
-			}
+			} */
 
 	span.image.icon {
 		cursor: default;
@@ -2771,7 +2771,7 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #3c3641;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
