@@ -115,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #00264d;
+		color: #4eb980;
 		text-decoration: none;
 	}
 
@@ -2177,8 +2177,8 @@ input, select, textarea {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
-			/* transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png"); */
+			transition: opacity 0.25s ease-in-out;
+			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -2191,7 +2191,6 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			border: 1px #d3d3d3 solid;
 		}
 
 		.image.fit {
@@ -2212,7 +2211,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-/* 
+
 		.image.icon {
 			-moz-perspective: 500px;
 			-webkit-perspective: 500px;
@@ -2236,9 +2235,9 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
-			} */
+			}
 
-			/* .image.icon:hover:before {
+			.image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
@@ -2247,7 +2246,7 @@ input, select, textarea {
 
 			.image.icon:hover:after {
 				opacity: 1;
-			} */
+			}
 
 	span.image.icon {
 		cursor: default;
@@ -2699,7 +2698,6 @@ input, select, textarea {
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
-		top: -40px;
 	}
 
 		#header:before, #header:after {
@@ -2748,6 +2746,24 @@ input, select, textarea {
 			color: #544d55;
 		}
 
+		#header .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+			#header .logo.fa-paper-plane-o:before {
+				left: -0.075em;
+				position: relative;
+			}
 
 		#header h1 {
 			font-size: 2.5em;
@@ -2760,19 +2776,11 @@ input, select, textarea {
 			margin: 0.25em 0 0 0;
 		}
 
-		.headshot {
-			width: 500px;
-			z-index: 5;
-			position: relative;
-			border: 5px #eeeeee solid;
-			border-radius: 50%;
-		}
-
 /* Footer */
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #3c3641;
+		background-color: #4eb980;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -3274,6 +3282,5 @@ input, select, textarea {
 				#header br {
 					display: none;
 				}
-
 
 	}
