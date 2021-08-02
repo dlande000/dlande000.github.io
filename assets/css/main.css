@@ -1185,6 +1185,7 @@ input, select, textarea {
 
 				.row > .col-12-small {
 					width: 200px;
+					margin-bottom: 36px;
 				}
 
 				.row > .off-12-small {
@@ -2223,4 +2224,8 @@ input, select, textarea {
 			justify-content: center;
 			width: 100%;
 			text-align: center;
+		}
+
+		.col-12, .col-6 {
+			margin-bottom: 24px;
 		}

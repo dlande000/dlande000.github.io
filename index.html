@@ -1,168 +1,318 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>David Anderson</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" type="image/png" href="./images/d.png"/>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>David Anderson</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <link rel="shortcut icon" type="image/png" href="./images/d.png" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#" class="icon fa-home"><span>Home</span></a>
+        <a href="#work" class="icon fa-folder"><span>Work</span></a>
+        <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+      </nav>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>David Anderson</h1>
+            <h3>Software Engineer in New York, NY</h3>
+            <p>
+              I am a software developer looking for creative solutions to
+              challenging problems. Whether working on the frontend, backend, or
+              fullstack, I strive for clean, concise, and comprehensive code.
+              When I'm not coding, you can find me reading, composing music, or
+              hyping up the Midwest.
+            </p>
+            <form class="resume" action="./pdfs/resume.pdf">
+              <input type="submit" value="Resume" />
+            </form>
+          </header>
+          <a href="#work" class="jumplink pic">
+            <img src="images/headshot.jpeg" alt="" />
+          </a>
+        </article>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon fa-home"><span>Home</span></a>
-						<a href="#work" class="icon fa-folder"><span>Work</span></a>
-						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-					</nav>
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>My Work</h2>
+          </header>
+          <p>
+            I'm always looking for something interesting to build! Currently, I am one of the principle engineers on Kubiquity, a Kubernetes error-monitoring tool. 
+          </p>
+          <h2>Products</h2>
+          <br />
+          <section>
+            <div class="row">
+              <div class="col-12 col-12-medium col-12-small">
+                <a href="https://www.kubiquity.io/" class="image fit"
+                  ><img src="./images/kubiquity.gif" alt=""
+                /></a>
+                <br />
+                <h3>Kubiquity</h3>
+                <br/
+                <p>
+                  Kubiquity is a real-time Kubernetes error-monitoring tool.
+                  Kubiquity runs locally as an Electron application and
+                  incorporates Prometheus metrics queries for a cluster's CPU
+                  and memory usage by node.
+                </p>
+                <b
+                  ><a href="https://www.kubiquity.io/">Product Site</a> |
+                  <a href="https://github.com/oslabs-beta/Kubiquity"
+                    >GitHub</a
+                  ></b
+                >
+              </div>
+            </div>
+          </section>
+          <h2>Projects</h2>
+          <br />
+          <section>
+            <div class="row">
+              <div class="col-6 col-6-medium col-12-small">
+                <br />
+                <h3>audiyo.</h3>
+                <br/
+                <p>
+                  audiyo: an app where users record and share audio straight
+                  from their computer mics. Built with React Hooks, Redux, Node,
+                  Express, AWS S3. (Not currently live due to storage costs.)
+                </p>
+                <b><a href="https://github.com/dlande000/audio">GitHub</a></b>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <br />
+                <h3>Infinite Books</h3>
+                <br/
+                <p>
+                  Infinite Books: a single-page application with an infinite
+                  scroll that queries the Open Library API and returns all
+                  titles that match a user’s search.
+                </p>
+                <b
+                  ><a href="https://davidanderson.nyc/infinite-books/">Live</a>
+                  |
+                  <a href="https://github.com/dlande000/infinite-books"
+                    >GitHub</a
+                  ></b
+                >
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <a href="http://www.fakebook.nyc" class="image fit"
+                  ><img src="./images/fakebook.png" alt=""
+                /></a>
+                <br />
+                <h3>Fakebook</h3>
+                <br/
+                <p>
+                  Fakebook is a single-page web app inspired by Facebook.
+                  Fakebook uses Ruby on Rails for its back end, and React/Redux
+                  for its front end.
+                </p>
+                <b
+                  ><a href="http://www.fakebook.nyc">Live</a> |
+                  <a href="https://github.com/dlande000/Fakebook">GitHub</a></b
+                >
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <a
+                  href="http://www.davidanderson.nyc/Block-Attack"
+                  class="image fit"
+                  ><img src="./images/blockattack.png" alt=""
+                /></a>
+                <br />
+                <h3>Block Attack!</h3>
+                <br/
+                <p>
+                  Block Attack! is a JavaScript puzzle game based on the Super
+                  Nintendo game 'Tetris Attack' that utilizes sprites and music
+                  from the original game.
+                </p>
+                <b
+                  ><a href="http://www.davidanderson.nyc/Block-Attack">Live</a>
+                  |
+                  <a href="https://github.com/dlande000/Block-Attack"
+                    >GitHub</a
+                  ></b
+                >
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <a
+                  href="http://www.davidanderson.nyc/random-simpsons-episode"
+                  class="image fit"
+                  ><img src="./images/random-simpsons-episode.png" alt=""
+                /></a>
+                <br />
+                <h3>Pitt, the Elder</h3>
+                <br/
+                <p>
+                  Built with Python, JavaScript, HTML, and CSS, Pitt, The Elder
+                  takes in a CSV file of 'The Simpsons' data and returns an
+                  episode suggestion.
+                </p>
+                <b
+                  ><a
+                    href="http://www.davidanderson.nyc/random-simpsons-episode"
+                    >Live</a
+                  >
+                  |
+                  <a href="https://github.com/dlande000/random-simpsons-episode"
+                    >GitHub</a
+                  ></b
+                >
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <a
+                  href="http://www.davidanderson.nyc/pongpongpongpongpongpongpongpong"
+                  class="image fit"
+                  ><img src="./images/pong.png" alt=""
+                /></a>
+                <br />
+                <h3>PONGPONGPONGPONG ...</h3>
+                <br/
+                <p>
+                  The classic video game PONG but with way more PONG. Built with
+                  JavaScript, Canvas, HTML, and CSS.
+                </p>
+                <b
+                  ><a
+                    href="http://www.davidanderson.nyc/pongpongpongpongpongpongpongpong"
+                    >Live</a
+                  >
+                  |
+                  <a
+                    href="https://github.com/dlande000/pongpongpongpongpongpongpongpong"
+                    >GitHub</a
+                  ></b
+                >
+              </div>
+            </div>
+          </section>
+          <h2>Skills</h2>
+          <div class="skills">
+            <div class="skill">
+              <h6>JavaScript (ES6+)</h6>
+            </div>
+            <div class="skill">
+              <h6>React (Hooks and class components)</h6>
+            </div>
+            <div class="skill">
+              <h6>Redux</h6>
+            </div>
+            <div class="skill">
+              <h6>Node.js</h6>
+            </div>
+            <div class="skill">
+              <h6>Express</h6>
+            </div>
+            <div class="skill">
+              <h6>Ruby</h6>
+            </div>
+            <div class="skill">
+              <h6>Rails</h6>
+            </div>
+            <div class="skill">
+              <h6>SQL</h6>
+            </div>
+            <div class="skill">
+              <h6>NoSQL</h6>
+            </div>
+            <div class="skill">
+              <h6>RESTful architecture</h6>
+            </div>
+            <div class="skill">
+              <h6>GraphQL</h6>
+            </div>
+            <div class="skill">
+              <h6>Typescript</h6>
+            </div>
+            <div class="skill">
+              <h6>Python</h6>
+            </div>
+            <div class="skill">
+              <h6>SCSS</h6>
+            </div>
+            <div class="skill">
+              <h6>CSS</h6>
+            </div>
+            <div class="skill">
+              <h6>HTML</h6>
+            </div>
+            <div class="skill">
+              <h6>Git</h6>
+            </div>
+            <div class="skill">
+              <h6>AWS</h6>
+            </div>
+          </div>
+        </article>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <header>
+            <h2>Contact Me</h2>
+          </header>
+          <p>
+            Want to discuss my projects or build something with me? Feel free to
+            reach me at any of the links below. I look forward to hearing from
+            you!
+          </p>
+          <nav>
+            <div class="contact-div">
+              <img class="contact-img" src="./images/email.png" alt="" /><a
+                href="mailto:dlande000@gmail.com"
+                >Email: dlande000@gmail.com</a
+              >
+            </div>
+            <br />
+            <div class="contact-div">
+              <img class="contact-img" src="./images/linkedin.png" alt="" /><a
+                href="https://www.linkedin.com/in/david-anderson-7bb543101/"
+                >LinkedIn</a
+              >
+            </div>
+            <br />
+            <div class="contact-div">
+              <img class="contact-img" src="./images/git.png" alt="" /><a
+                href="https://github.com/dlande000"
+                >GitHub</a
+              >
+            </div>
+            <br />
+            <div class="contact-div">
+              <img class="contact-img" src="./images/angellist.png" alt="" /><a
+                href="https://angel.co/david-anderson-109"
+                >AngelList</a
+              >
+            </div>
+          </nav>
+        </article>
+      </div>
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>David Anderson</h1>
-									<h3>Software Engineer in New York, NY</h3>
-									<p>I am a software developer looking for creative solutions to challenging problems. Whether writing in JavaScript, Ruby, Python, SQL, HTML, CSS, or using Rails, React, and Redux, I strive for clean, concise, and comprehensive code. When I'm not coding, you can find me reading, composing music, or hyping up the Midwest.</p>
-									<form class="resume" action="./pdfs/resume.pdf">
-										<input type="submit" value="Resume" />
-									</form>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<img src="images/headshot.jpeg" alt="" />
-								</a>
-							</article>
+      <!-- Footer -->
+      <div id="footer"></div>
+    </div>
 
-						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>My Work</h2>
-								</header>
-								<p>
-									After studying English literature and philosophy at the University of Minnesota—Twin Cities, I worked in academic and trade publishing before rediscovering my passion for software development. Since then, I've learned a multitude of programming languages and have taken on complex projects. I am excited to use the tools I've developed while continually learning and expanding my well of knowledge. 
-								</p>
-								<h2>Projects</h2><br/>
-								<section>
-									<div class="row">
-										<div class="col-6 col-6-medium col-12-small">
-											<a href="http://www.fakebook.nyc" class="image fit"><img src="./images/fakebook.png" alt=""></a>
-											<br/><h3>Fakebook</h3>
-											<br/<p>Fakebook is a single-page web app inspired by Facebook. Fakebook uses Ruby on Rails for its back end, and React/Redux for its front end.</p>
-											<b><a href="http://www.fakebook.nyc">Live</a>  |  <a href="https://github.com/dlande000/Fakebook">GitHub</a></b>
-										</div>
-										<div class="col-6 col-6-medium col-12-small">
-											<a href="http://www.davidanderson.nyc/Block-Attack" class="image fit"><img src="./images/blockattack.png" alt=""></a>
-											<br/><h3>Block Attack!</h3>
-											<br/<p>Block Attack! is a JavaScript puzzle game based on the Super Nintendo game 'Tetris Attack' that utilizes sprites and music from the original game.</p>
-											<b><a href="http://www.davidanderson.nyc/Block-Attack">Live</a> | <a href="https://github.com/dlande000/Block-Attack">GitHub</a></b>
-										</div>
-										<div class="col-6 col-6-medium col-12-small">
-											<a href="http://www.davidanderson.nyc/random-simpsons-episode" class="image fit"><img src="./images/random-simpsons-episode.png" alt=""></a>
-											<br/><h3>Pitt, the Elder</h3>
-											<br/<p>Built with Python, JavaScript, HTML, and CSS, Pitt, The Elder takes in a CSV file of 'The Simpsons' data and returns an episode suggestion.</p>
-											<b><a href="http://www.davidanderson.nyc/random-simpsons-episode">Live</a> | <a href="https://github.com/dlande000/random-simpsons-episode">GitHub</a></b>
-										</div>
-										<div class="col-6 col-6-medium col-12-small">
-											<a href="http://www.davidanderson.nyc/pongpongpongpongpongpongpongpong" class="image fit"><img src="./images/pong.png" alt=""></a>
-											<br/><h3>PONGPONGPONGPONG ...</h3>
-											<br/<p>The classic video game PONG but with way more PONG. Built with JavaScript, Canvas, HTML, and CSS.</p>
-											<b><a href="http://www.davidanderson.nyc/pongpongpongpongpongpongpongpong">Live</a> | <a href="https://github.com/dlande000/pongpongpongpongpongpongpongpong">GitHub</a></b>
-										</div>
-									</div>
-								</section>
-								<h2>Skills</h2>
-								<div class="skills">
-								<div class="skill">
-									<img class="skill-icon" src="./images/react.png" alt="">
-									<h6>React</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/redux.png" alt="">
-									<h6>Redux</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/javascript.png" alt="">
-									<h6>JavaScript</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/ruby.png" alt="">
-									<h6>Ruby</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/rails.png" alt="">
-									<h6>Rails</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/python.png" alt="">
-									<h6>Pythoon</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/sql.png" alt="">
-									<h6>PostgreSQL</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/html5.png" alt="">
-									<h6>HTML5</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/css.png" alt="">
-									<h6>CSS3</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/jquery.png" alt="">
-									<h6>jQuery</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/git copy.png" alt="">
-									<h6>Git</h6>
-								</div>
-								<div class="skill">
-									<img class="skill-icon" src="./images/aws.png" alt="">
-									<h6>AWS</h6>
-								</div>
-							</div>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<p>Want to discuss my projects or build something with me? Feel free to reach me at any of the links below. I look forward to hearing from you!</p>
-								<nav>
-									<div class="contact-div">
-										<img class="contact-img" src="./images/email.png" alt=""><a href="mailto:dlande000@gmail.com">Email: dlande000@gmail.com</a>
-									</div><br/>
-									<div class="contact-div">
-										<img class="contact-img" src="./images/linkedin.png" alt=""><a href="https://www.linkedin.com/in/david-anderson-7bb543101/">LinkedIn</a>
-									</div><br/>
-									<div class="contact-div">
-										<img class="contact-img" src="./images/git.png" alt=""><a href="https://github.com/dlande000">GitHub</a>
-									</div><br/>
-									<div class="contact-div">
-										<img class="contact-img" src="./images/angellist.png" alt=""><a href="https://angel.co/david-anderson-109">AngelList</a>
-									</div>
-								</nav>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<div id="footer"></div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
